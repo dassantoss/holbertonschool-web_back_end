@@ -1,20 +1,34 @@
 #!/usr/bin/env python3
-"""Module for storing the zoom_array function."""
-from typing import Tuple, List, Any
+"""Use mypy to validate the following piece of code
+    and apply any necessary changes.
+    def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
+        zoomed_in: Tuple = [
+            item for item in lst
+            for i in range(factor)
+        ]
+        return zoomed_in
 
 
-def zoom_array(lst: Tuple[Any], factor: int = 2) -> List[Any]:
+    array = [12, 72, 91]
+
+    zoom_2x = zoom_array(array)
+
+    zoom_3x = zoom_array(array, 3.0)"""
+from typing import Tuple, List
+
+
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Zoom in on elements of a tuple by replicating them.
 
     Args:
-        lst (Tuple[Any]): The input tuple.
+        lst (Tuple): The input tuple.
         factor (int, optional): The zoom factor. Defaults to 2.
 
     Returns:
-        List[Any]: A list containing zoomed-in elements.
+        List: A list containing zoomed-in elements.
     """
-    zoomed_in: List[Any] = [
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
     ]
