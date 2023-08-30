@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 python_variable_annotations/*main.py
 python_async_function/*main.py
+python_async_comprehension/*main.py
