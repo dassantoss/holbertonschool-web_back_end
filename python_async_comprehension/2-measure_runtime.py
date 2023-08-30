@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-""""""
+"""
+Module to measure runtime of parallel async comprehensions.
+"""
 import asyncio
 from typing import List
 
