@@ -163,3 +163,6 @@ python_async_function/*main.py
 python_async_comprehension/*main.py
 NoSQL/playground-1.mongodb.js
 NoSQL/*main.py
+NoSQL/dump.zip
+NoSQL/dump/logs/nginx.metadata.json
+NoSQL/dump/logs/nginx.bson
