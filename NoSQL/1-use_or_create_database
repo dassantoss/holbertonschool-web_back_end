@@ -1,0 +1,2 @@
+//  MongoDB will creat database my_db
+use my_db
