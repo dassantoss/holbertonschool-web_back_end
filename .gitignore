@@ -163,3 +163,4 @@ NoSQL/dump.zip
 NoSQL/dump/logs/nginx.metadata.json
 NoSQL/dump/logs/nginx.bson
 */*main.py
+pagination/Popular_Baby_Names.csv
