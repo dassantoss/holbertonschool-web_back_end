@@ -162,7 +162,10 @@ NoSQL/playground-1.mongodb.js
 NoSQL/dump.zip
 NoSQL/dump/logs/nginx.metadata.json
 NoSQL/dump/logs/nginx.bson
-*/*main.py
+*/*main.*
 pagination/Popular_Baby_Names.csv
 ES6_basic/node_modules/
 ES6_basic/package-lock.json
+ES6_basic/.eslintrc.js
+ES6_basic/babel.config.js
+ES6_basic/package.json
