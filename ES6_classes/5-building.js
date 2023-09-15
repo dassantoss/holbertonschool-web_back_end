@@ -1,17 +1,18 @@
 export default class Building {
   constructor(sqft) {
-    // Almacena el atributo en una versión con guion bajo
+    // Verifica si la instancia actual es una clase hija de Building
+    // y si no se ha implementado evacuationWarningMessage
+    if (this.constructor === Building && this.evacuationWarningMessage === undefined) {
+      throw Error('Class extending Building must override evacuationWarningMessage');
+    }
     this._sqft = sqft;
   }
 
-  // Implementa un getter para el atributo 'sqft'
+  set sqft(sqft) {
+    this._sqft = sqft;
+  }
+
   get sqft() {
     return this._sqft;
   }
-
-  // Declara el método abstracto 'evacuationWarningMessage'
-  evacuationWarningMessage() {
-    throw new Error('Class extending Building must override evacuationWarningMessage');
-  }
 }
-  
