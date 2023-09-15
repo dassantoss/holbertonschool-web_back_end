@@ -1,5 +1,3 @@
-import Currency from "./3-currency";
-
 export default class Pricing {
   constructor(amount, currency) {
     // Almacena los atributos en versiones con guion bajo
