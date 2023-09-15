@@ -1,7 +1,8 @@
+/* eslint-disable */
 export default function createIteratorObject(report) {
-  const nArr = [];
-  for (const arr of Object.keys(report)) {
-    nArr.push(arr);
-  }
-  return nArr;
+	const employees = [];
+	for (const dpt of Object.values(report.allEmployees)) {
+		employees.push(...dpt);
+	}
+	return employees;
 }
