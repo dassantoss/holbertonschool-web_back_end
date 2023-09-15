@@ -19,7 +19,7 @@ export default class Car {
  * @returns {Car} Una nueva instancia de Car con valores iniciales indefinidos.
  */
   cloneCar() {
-    // Clonar el objeto manteniendo el prototipo y estableciendo los valores iniciales como indefinidos.
+    // Clonar el objeto manteniendo el prototipo y estableciendo los valores iniciales.
     const origin = this;
     return Object.assign(Object.create(Object.getPrototypeOf(origin)), {
       _brand: undefined,
