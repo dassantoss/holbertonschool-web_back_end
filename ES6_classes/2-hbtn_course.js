@@ -47,7 +47,7 @@ class HolbertonCourse {
   get students() {
     return this._students;
   }
-  
+
   // Implementa un setter para el atributo 'students'
   set students(newStudents) {
     if (!Array.isArray(newStudents) || !newStudents.every((student) => typeof student === 'string')) {
