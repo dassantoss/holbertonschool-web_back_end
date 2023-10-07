@@ -162,7 +162,7 @@ NoSQL/playground-1.mongodb.js
 NoSQL/dump.zip
 NoSQL/dump/logs/nginx.metadata.json
 NoSQL/dump/logs/nginx.bson
-*/*main.*
+*main.*
 pagination/Popular_Baby_Names.csv
 */node_modules/
 */package-lock.json
@@ -170,3 +170,4 @@ pagination/Popular_Baby_Names.csv
 */babel.config.js
 */package.json
 */.eslintrc.json
+ES6_promise/.babelrc
