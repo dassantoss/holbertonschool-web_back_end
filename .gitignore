@@ -173,3 +173,5 @@ pagination/Popular_Baby_Names.csv
 ES6_promise/.babelrc
 ES6_promise/nodesource_setup.sh
 ES6_promise/utils.js
+ES6_data_manipulation/.babelrc
+nodesource_setup.sh
